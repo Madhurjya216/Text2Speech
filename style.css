@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Anek+Devanagari:wght@100;200;300;400;500&family=Arimo:ital@1&family=Bruno+Ace+SC&family=Comfortaa:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=DynaPuff:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@100;300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;300;400;500;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300&family=Signika+Negative:wght@300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,300;1,600;1,700;1,900&family=Ubuntu:wght@300;400&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Anek+Devanagari:wght@100;200;300;400;500&family=Arimo:ital@1&family=Bruno+Ace+SC&family=Comfortaa:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=DynaPuff:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@100;300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;300;400;500;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300&family=Signika+Negative:wght@300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,300;1,600;1,700;1,900&family=Ubuntu:wght@300;400&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(50, 48, 48);
+}
+
+nav {
+  text-align: center;
+  ;
+}
+
+nav h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  ;
+  color: white;
+}
+
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  height: 90vh
+}
+
+textarea {
+  width: 100%;
+  outline: 2px solid goldenrod;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+}
+
+::placeholder {
+  color: grey;
+}
+
+#btn {
+  background: goldenrod;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: .1s
+}
+
+#btn:hover {
+  border: 3.5px solid gold;
+}
+
+.borderRadius {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  width: 100px;
+  background: -webkit-linear-gradient(red, blue);
+  height: 100px;
+}
